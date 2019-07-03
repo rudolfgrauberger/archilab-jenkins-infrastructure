@@ -3,5 +3,5 @@ unclassified:
     configs:
       - name: "ArchiLab"
         apiUrl: "https://api.github.com"
-        credentialsId: "github-archilab"
+        credentialsId: "github-archilab-token"
         manageHooks: true

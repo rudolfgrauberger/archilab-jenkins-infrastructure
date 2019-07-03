@@ -8,3 +8,6 @@ git:latest
 github-branch-source:latest
 credentials-binding:latest
 keycloak:latest
+job-dsl:latest
+configuration-as-code-support:latest
+docker-workflow:latest

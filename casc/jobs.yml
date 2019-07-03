@@ -1,0 +1,90 @@
+jobs:
+  - script: >
+      pipelineJob('prox-project-service') {
+        definition {
+          cpsScm {
+              scriptPath 'Jenkinsfile'
+              scm {
+                  git {
+                      remote {
+                          github('rudolfgrauberger/prox-project-service')
+                          credentials('github-archilab')
+                      }
+                      branches('gp-ss2019')
+                  }
+              }
+          }
+        }
+      }
+
+  - script: >
+      pipelineJob('prox-module-service') {
+        definition {
+          cpsScm {
+              scriptPath 'Jenkinsfile'
+              scm {
+                  git {
+                      remote {
+                          github('rudolfgrauberger/prox-module-service')
+                          credentials('github-archilab')
+                      }
+                      branches('gp-ss2019')
+                  }
+              }
+          }
+        }
+      }
+
+  - script: >
+      pipelineJob('prox-web-client') {
+        definition {
+          cpsScm {
+              scriptPath 'Jenkinsfile'
+              scm {
+                  git {
+                      remote {
+                          github('rudolfgrauberger/prox-web-client')
+                          credentials('github-archilab')
+                      }
+                      branches('gp-ss2019')
+                  }
+              }
+          }
+        }
+      }
+
+  - script: >
+      pipelineJob('prox-service-discovery') {
+        definition {
+          cpsScm {
+              scriptPath 'Jenkinsfile'
+              scm {
+                  git {
+                      remote {
+                          github('rudolfgrauberger/prox-service-discovery')
+                          credentials('github-archilab')
+                      }
+                      branches('gp-ss2019')
+                  }
+              }
+          }
+        }
+      }
+
+  - script: >
+      pipelineJob('prox-api-gateway') {
+        definition {
+          cpsScm {
+              scriptPath 'Jenkinsfile'
+              scm {
+                  git {
+                      remote {
+                          github('rudolfgrauberger/prox-api-gateway')
+                          credentials('github-archilab')
+                      }
+                      branches('gp-ss2019')
+                  }
+              }
+          }
+        }
+      }
