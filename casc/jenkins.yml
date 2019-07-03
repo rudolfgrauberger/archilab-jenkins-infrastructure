@@ -1,0 +1,16 @@
+jenkins:
+  systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code plugin\n\n"
+  numExecutors: 5
+  scmCheckoutRetryCount: 2
+  mode: NORMAL
+
+#  globalNodeProperties:
+#  - envVars:
+#      env:
+#        - key: FOO
+#          value: BAR
+
+unclassified:
+  location:
+#    adminAddress: you@example.com
+    url: https://build.archi-lab.io/

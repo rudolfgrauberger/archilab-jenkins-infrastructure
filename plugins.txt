@@ -3,3 +3,7 @@ timestamper:latest
 workflow-aggregator:latest
 pipeline-stage-view:latest
 embeddable-build-status:latest
+configuration-as-code:latest
+git:latest
+github-branch-source:latest
+credentials-binding:latest
