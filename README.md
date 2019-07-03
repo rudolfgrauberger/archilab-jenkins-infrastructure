@@ -13,7 +13,7 @@ docker build -t archilab-jenkins .
 
 ArchiLab-Jenkins starten
 ``` posh
-docker run -p 8080:8080 --env-file env.list archilab-jenkins
+docker run -p 8080:8080 --env-file env.list -v /var/run/docker.sock:/var/run/docker.sock archilab-jenkins
 ```
 
 Die `env.list` ist eine Datei, die die benötigten Umgebungsvariablen in der Form `VARNAME=wert` beinhaltet. Welche Umgebungsvariablen benötigt werden, ist in der env.list definiert.
