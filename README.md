@@ -1,5 +1,5 @@
 # ArchiLab Jenkins-Infrastruktur
-Dieses Repository beinhaltet die alles was für die Installation, Einrichtung und den Betrieb des Jenkin-Servers benötigt wird.
+Dieses Repository beinhaltet alles was für die Installation, Einrichtung und den Betrieb des Jenkin-Servers benötigt wird.
 
 
 ArchiLab-Image bauen
