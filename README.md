@@ -8,7 +8,7 @@ ArchiLab-Image bauen
 docker build -t archilab-jenkins .
 ```
 
-Hinweis: Wenn es Fehler beim Herunterladen/Installieren der Plugin gibt, dann bitte in der plugins.txt die "\r\n" durch "\n" ersetzen!!!
+**Hinweis:** Wenn es Fehler beim Herunterladen/Installieren der Plugin gibt, dann ggf. in der plugins.txt die Zeilenunbrüche überprüfen. [1]
 
 
 ArchiLab-Jenkins starten
@@ -20,5 +20,9 @@ Die `env.list` ist eine Datei, die die benötigten Umgebungsvariablen in der For
 
 Zugriff auf Container
 ``` posh
-docker exec -it <container bash
+docker exec -it <container> bash
 ```
+
+---
+Quellen
+[1] https://github.com/jenkinsci/docker/issues/516
