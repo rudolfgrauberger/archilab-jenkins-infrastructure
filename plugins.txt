@@ -1,0 +1,5 @@
+cloudbees-folder:latest
+timestamper:latest
+workflow-aggregator:latest
+pipeline-stage-view:latest
+embeddable-build-status:latest
