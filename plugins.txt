@@ -7,3 +7,4 @@ configuration-as-code:latest
 git:latest
 github-branch-source:latest
 credentials-binding:latest
+keycloak:latest

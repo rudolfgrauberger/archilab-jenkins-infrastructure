@@ -1,0 +1,14 @@
+jenkins:
+  securityRealm: keycloak
+
+unclassified:
+  keycloakSecurityRealm:
+    keycloakJson: |-
+      {
+        "realm": "archilab",
+        "auth-server-url": "https://login.archi-lab.io/auth",
+        "ssl-required": "external",
+        "resource": "jenkins",
+        "public-client": true,
+        "confidential-port": 0
+      }

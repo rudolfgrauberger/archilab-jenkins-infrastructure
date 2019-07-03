@@ -1,8 +1,12 @@
 jenkins:
   systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code plugin\n\n"
-  numExecutors: 5
-  scmCheckoutRetryCount: 2
+  numExecutors: 10
+  scmCheckoutRetryCount: 0
   mode: NORMAL
+
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: true
 
 #  globalNodeProperties:
 #  - envVars:
